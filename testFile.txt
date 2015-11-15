@@ -1,0 +1,26 @@
+/* ignore this comment! */
+
+
+class Act;
+
+class A {
+	//
+};
+
+class C {
+	int d;
+};
+
+class B : A, protected C {
+	int a, b, c;
+
+	void foo() {
+	}
+
+	class M {
+
+		class MM {
+			class MMM { };
+		};
+	};
+};

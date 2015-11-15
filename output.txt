@@ -1,0 +1,6 @@
+class A
+class C
+class B Parent A public Parent C protected
+class M nested-in B
+class MM nested-in M
+class MMM nested-in MM
